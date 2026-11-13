@@ -4,7 +4,7 @@ CHS Pages is a build-free short-story library for CHS Literacy Days in grades 9�
 
 ## Run locally
 
-Open a terminal in this project folder.
+Open a terminal in the folder containing `index.html`. If you downloaded a ZIP, extract it first.
 
 ```sh
 python3 -m http.server 8000 --bind 127.0.0.1
@@ -24,15 +24,17 @@ This folder is the git repository for https://github.com/chagoyan/chspages, and 
 
 Open the deployed site online once and let the service worker finish preparing the library and all available stories. Use the browser’s install or Add to Home Screen command when supported. After setup, the library and all 36 stories can reopen offline.
 
-Increment the cache version in `service-worker.js` whenever you release changes to app assets, the catalog or story texts. A newly installed worker takes over after older tabs or app windows on that site close. Reader settings and ratings use separate browser storage.
+Increment the cache version in `service-worker.js` whenever you release changes to app assets, the catalog or story texts. A newly installed worker takes over after older tabs or app windows on that site close. The service worker uses its own cache namespace and version, so a new cache version does not clear reader data.
+
+Keep the storage key in `js/storage.js` (`chs-pages:v1`) unchanged so returning readers retain their bookmarks, progress, preferences and ratings. Data saved by earlier builds under `thursday-pages:v1` moves to the current key automatically the first time a reader opens the site.
 
 ## Story catalog and attribution
 
-All 36 stories are complete texts in the U.S. public domain. Each has an individual source credit, shown in the reader and recorded in `data/stories.json`. Most are from Project Gutenberg. The Chopin and Twain transcriptions credited to Wikisource follow historical editions. The Necklace uses an English translation published in 1916 in *Short Stories Old and New*. Each story file in `stories/` is plain text with a blank line between paragraphs.
+All 36 stories are complete texts in the U.S. public domain. Each has an individual source credit, shown in the reader and recorded in `data/stories.json`. Most are from Project Gutenberg. The Chopin and Twain transcriptions credited to Wikisource follow historical editions. *The Open Window* uses David Price’s transcription of the 1914 edition of *Beasts and Super-Beasts*. *The Necklace* uses an English translation published in 1916 in *Short Stories Old and New*. Each story file in `stories/` is plain text with a blank line between paragraphs.
 
-Each catalog record has a short `description` in three brief phrases that avoid spoiling the ending. The home page shows the description of the story marked `featured: true`. To feature a different story, move that flag to its record.
+Each catalog record has a short `description` in three brief phrases that avoid spoiling the ending. The home page shows the description of the story marked `featured: true`, currently *The Open Window*. To feature a different story, move that flag to its record.
 
-To publish another story, verify the exact edition and its U.S. public-domain status, then add the full plain-text file under `stories/`. Add its record to `data/stories.json` with `status: "available"`, a description, an actual word count, edition label and path, and the source and rights metadata. Reading time is rounded up at 220 words per minute. The reader displays an edition selector when multiple editions are present. Check the rights for any translation or adaptation independently and label it clearly.
+To publish another story, verify the exact edition and its U.S. public-domain status, then add the full plain-text file under `stories/`. Add its record to `data/stories.json` with `status: "available"`, a description, an actual word count, edition label and path, and the source and rights metadata. Reading time is rounded up at 220 words per minute. Each story currently has one edition. The reader displays an edition selector when a story has multiple editions. Check the rights for any translation or adaptation independently and label it clearly.
 
 ## Ratings
 
