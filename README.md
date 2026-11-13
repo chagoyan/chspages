@@ -12,13 +12,13 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 Visit http://localhost:8000/ in your browser. Serve the files over localhost or HTTPS so JavaScript modules and the service worker can load.
 
-## Deploy from chagoyan/chspages
+## Deploy on Netlify
 
-This folder is the git repository for https://github.com/chagoyan/chspages, and its root is the site root. There is no build step: commit changes and push them to `main`. Keep the empty `.nojekyll` file in the root so GitHub Pages serves the files as they are, without Jekyll processing.
+This folder is the git repository for https://github.com/chagoyan/chspages, and its root is the site root. Netlify hosts the site from that repository. There is no build step, and `netlify.toml` tells Netlify to publish the repository root as it is.
 
-- **GitHub Pages.** In the repository, open **Settings → Pages**. Select **Deploy from a branch**, choose `main` and `/ (root)`, and save. With the default project address, open https://chagoyan.github.io/chspages/ after Pages publishes. [GitHub Pages instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-- **Cloudflare Pages.** Import `chagoyan/chspages` in **Workers & Pages → Pages**. Set the production branch to `main`, the framework preset to **None**, the build command to `exit 0`, and the build output directory to `.`. [Cloudflare static HTML instructions](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/)
-- **Netlify.** Import the repository, choose `main`, leave the build command empty, and set the publish directory to `.`. [Netlify build settings](https://docs.netlify.com/build/configure-builds/overview/)
+To connect the site once, sign in to Netlify and import an existing project from GitHub. Select `chagoyan/chspages` and the `main` branch, leave the build command empty, and deploy. Netlify reads the publish directory from `netlify.toml`. [Netlify build settings](https://docs.netlify.com/build/configure-builds/overview/)
+
+After that, every push to `main` publishes a new version automatically. Netlify assigns an address ending in `netlify.app`, which you can rename in the project's domain settings.
 
 ## Install and read offline
 
