@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173e35">
+  <meta name="description" content="Your CHS literacy library.">
+  <title>CHS Pages</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a class="brand" href="./"><img src="./icons/icon-192.png" alt="" width="38" height="38"> CHS Pages</a>
+      <a id="library-link" href="./#library">Library</a>
+    </div>
+  </header>
+  <main id="main" class="shell" tabindex="-1">
+    <p id="loading" role="status">Loading library…</p>
+    <noscript>Enable JavaScript to use the CHS Pages library and reader.</noscript>
+    <section id="home" hidden>
+      <section class="volume-picker" aria-labelledby="volume-picker-heading">
+        <p class="eyebrow">Your CHS literacy library</p>
+        <h2 id="volume-picker-heading">Choose a volume</h2>
+        <div id="volume-books" class="volume-books"></div>
+      </section>
+      <section class="feature" aria-labelledby="feature-title">
+        <div class="feature-copy">
+          <p class="eyebrow">Featured story</p>
+          <h1 id="feature-title"></h1>
+          <p id="feature-meta" class="feature-meta"></p>
+          <p id="feature-description"></p>
+          <a id="feature-link" class="button primary">Read story <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="feature-art" aria-hidden="true">
+          <div class="window"><i></i><i></i><i></i><i></i></div>
+        </div>
+      </section>
+      <section id="continue" class="continue" aria-labelledby="continue-heading" hidden>
+        <h2 id="continue-heading">Continue reading</h2>
+        <div id="continue-list"></div>
+      </section>
+      <section id="library" aria-labelledby="library-heading" tabindex="-1">
+        <div class="library-heading">
+          <div><p class="eyebrow">The collection</p><h2 id="library-heading">Browse the library</h2></div>
+          <p id="catalog-summary"></p>
+        </div>
+        <form class="filters" role="search" aria-label="Filter the library">
+          <label>Search by title or author <input id="search" type="search" placeholder="Search stories"></label>
+          <label>Volume <select id="volume"><option value="">All volumes</option></select></label>
+          <label>Genre <select id="genre"><option value="">All genres</option></select></label>
+        </form>
+        <p id="results-status" class="results-status" role="status"></p>
+        <div id="volumes"></div>
+      </section>
+    </section>
+    <section id="reader" aria-labelledby="story-title" hidden>
+      <div class="reader-header">
+        <a href="#library">← Back to library</a>
+        <h1 id="story-title" tabindex="-1"></h1>
+        <p id="story-meta"></p>
+      </div>
+      <div id="reader-controls" class="reader-controls" hidden>
+        <fieldset class="settings">
+          <legend>Reading settings</legend>
+          <label>Text size <select id="font-size">
+            <option value="18">Small</option><option value="21">Medium</option>
+            <option value="25">Large</option><option value="30">Extra large</option>
+          </select></label>
+          <label>Line spacing <select id="spacing">
+            <option value="1.45">Compact</option><option value="1.7">Comfortable</option><option value="2">Wide</option>
+          </select></label>
+          <label>Theme <select id="theme">
+            <option value="light">Light</option><option value="paper">Warm paper</option><option value="dark">Dark</option>
+          </select></label>
+          <label id="edition-label" hidden>Edition <select id="edition"></select></label>
+        </fieldset>
+        <div class="bookmark-controls">
+          <button id="bookmark" type="button" aria-pressed="false">Bookmark this page</button>
+          <button id="jump-bookmark" type="button" hidden>Go to bookmark</button>
+          <p id="bookmark-status" role="status"></p>
+        </div>
+      </div>
+      <p id="reader-status" role="status"></p>
+      <article id="page" class="story-page" tabindex="-1" aria-label="Story text"></article>
+      <nav id="pagination" class="pagination" aria-label="Story pages" hidden>
+        <button id="previous" type="button">← Previous</button>
+        <p id="page-number" role="status"></p>
+        <button id="next" type="button">Next →</button>
+      </nav>
+      <section id="story-end" class="story-end" aria-labelledby="end-heading" hidden>
+        <h2 id="end-heading">The End</h2>
+        <form id="rating"></form>
+      </section>
+      <p id="source-line" class="source-line" hidden><a id="story-source">Original edition and source</a></p>
+    </section>
+  </main>
+  <footer class="shell">CHS Pages <span>•</span> CHS Literacy Days</footer>
+</body>
+</html>

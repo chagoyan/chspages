@@ -1,0 +1,820 @@
+{
+  "volumes": [
+    {
+      "id": "I",
+      "title": "Small Turns, Big Surprises",
+      "description": "Twists, irony, and unexpected endings."
+    },
+    {
+      "id": "II",
+      "title": "Beyond the Next Door",
+      "description": "Adventure, science fiction, mystery, and discovery."
+    },
+    {
+      "id": "III",
+      "title": "The Choice Ahead",
+      "description": "Friendship, decisions, courage, and moral dilemmas."
+    },
+    {
+      "id": "IV",
+      "title": "A Place to Belong",
+      "description": "Identity, relationships, humor, and human connection."
+    }
+  ],
+  "stories": [
+    {
+      "id": "the-open-window",
+      "title": "The Open Window",
+      "author": "Saki",
+      "volume": "I",
+      "genre": "Twist",
+      "status": "available",
+      "year": 1914,
+      "featured": true,
+      "description": "An unexpected visitor. A window left open. A young storyteller with an explanation.",
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/269",
+        "edition": "Beasts and Super-Beasts, John Lane, 1914",
+        "rights": "Public domain in the United States"
+      },
+      "words": 1208,
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-open-window.txt"
+        }
+      ]
+    },
+    {
+      "id": "after-twenty-years",
+      "title": "After Twenty Years",
+      "author": "O. Henry",
+      "volume": "I",
+      "genre": "Twist",
+      "status": "available",
+      "description": "A dark city street. A promise made twenty years ago. A friend who said he would be there.",
+      "words": 1261,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/2776",
+        "edition": "The Four Million",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/after-twenty-years.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-last-leaf",
+      "title": "The Last Leaf",
+      "author": "O. Henry",
+      "volume": "I",
+      "genre": "Friendship",
+      "status": "available",
+      "description": "A young artist falls ill. An ivy vine outside her window. She is counting the leaves as they fall.",
+      "words": 2346,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/3707",
+        "edition": "The Trimmed Lamp, and Other Stories of the Four Million",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-last-leaf.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-gift-of-the-magi",
+      "title": "The Gift of the Magi",
+      "author": "O. Henry",
+      "volume": "I",
+      "genre": "Relationships",
+      "status": "available",
+      "description": "Christmas Eve. One dollar and eighty-seven cents. Two people determined to find the perfect gift.",
+      "words": 2061,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/2776",
+        "edition": "The Four Million",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-gift-of-the-magi.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-lumber-room",
+      "title": "The Lumber Room",
+      "author": "Saki",
+      "volume": "I",
+      "genre": "Humor",
+      "status": "available",
+      "description": "A boy left behind as punishment. An aunt who is sure she is in charge. A locked room he is not supposed to enter.",
+      "words": 2194,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/269",
+        "edition": "Beasts and Super-Beasts",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-lumber-room.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-ransom-of-red-chief",
+      "title": "The Ransom of Red Chief",
+      "author": "O. Henry",
+      "volume": "I",
+      "genre": "Humor",
+      "status": "available",
+      "description": "Two small-time crooks. A banker's son held for ransom. A kidnapping that does not go according to plan.",
+      "words": 4152,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/1595",
+        "edition": "Whirligigs",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-ransom-of-red-chief.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-story-of-an-hour",
+      "title": "The Story of an Hour",
+      "author": "Kate Chopin",
+      "volume": "I",
+      "genre": "Twist",
+      "status": "available",
+      "description": "Bad news delivered gently. A woman alone in her room. One hour that changes everything.",
+      "words": 1017,
+      "source": {
+        "url": "https://en.wikisource.org/wiki/The_Story_of_an_Hour",
+        "edition": "Wikisource transcription of Kate Chopin’s story, first published in Vogue (1894)",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-story-of-an-hour.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-tell-tale-heart",
+      "title": "The Tell-Tale Heart",
+      "author": "Edgar Allan Poe",
+      "volume": "I",
+      "genre": "Suspense",
+      "status": "available",
+      "description": "A narrator who insists he is not mad. An old man with a pale blue eye. A sound that will not stop.",
+      "words": 2076,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/2148",
+        "edition": "The Works of Edgar Allan Poe — Volume 2",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-tell-tale-heart.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-necklace",
+      "title": "The Necklace",
+      "author": "Guy de Maupassant",
+      "volume": "I",
+      "genre": "Twist",
+      "status": "available",
+      "description": "A woman who longs for a grander life. A borrowed necklace. One glittering night that comes at a cost.",
+      "words": 2901,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/10483",
+        "edition": "Short Stories Old and New (1916 English translation; translator uncredited in this edition)",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "1916 English translation",
+          "path": "stories/the-necklace.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-red-headed-league",
+      "title": "The Red-Headed League",
+      "author": "Arthur Conan Doyle",
+      "volume": "II",
+      "genre": "Mystery",
+      "status": "available",
+      "description": "A pawnbroker with flaming red hair. A strange, well-paid job copying the encyclopedia. Sherlock Holmes wants to know why.",
+      "words": 9105,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/1661",
+        "edition": "The Adventures of Sherlock Holmes",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-red-headed-league.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-adventure-of-the-speckled-band",
+      "title": "The Adventure of the Speckled Band",
+      "author": "Arthur Conan Doyle",
+      "volume": "II",
+      "genre": "Mystery",
+      "status": "available",
+      "description": "A terrified young woman. A sister's dying words. Sherlock Holmes and a night in a sinister country house.",
+      "words": 9805,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/1661",
+        "edition": "The Adventures of Sherlock Holmes",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-adventure-of-the-speckled-band.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-adventure-of-the-blue-carbuncle",
+      "title": "The Adventure of the Blue Carbuncle",
+      "author": "Arthur Conan Doyle",
+      "volume": "II",
+      "genre": "Mystery",
+      "status": "available",
+      "description": "A battered hat and a Christmas goose. A famous stolen jewel. Sherlock Holmes follows the trail through holiday London.",
+      "words": 7808,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/1661",
+        "edition": "The Adventures of Sherlock Holmes",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-adventure-of-the-blue-carbuncle.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-gold-bug",
+      "title": "The Gold-Bug",
+      "author": "Edgar Allan Poe",
+      "volume": "II",
+      "genre": "Mystery",
+      "status": "available",
+      "description": "A strange golden beetle. A scrap of old parchment. A secret code that might lead to buried treasure.",
+      "words": 13567,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/10483",
+        "edition": "Short Stories Old and New",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-gold-bug.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-star",
+      "title": "The Star",
+      "author": "H. G. Wells",
+      "volume": "II",
+      "genre": "Science fiction",
+      "status": "available",
+      "description": "A new star appears in the night sky. Astronomers do the math. Earth waits to see how close it will come.",
+      "words": 4429,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/11870",
+        "edition": "The Country of the Blind, and Other Stories",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-star.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-country-of-the-blind",
+      "title": "The Country of the Blind",
+      "author": "H. G. Wells",
+      "volume": "II",
+      "genre": "Adventure",
+      "status": "available",
+      "description": "A climber falls into a hidden mountain valley. Its people have never known sight. He thinks he will soon be their king.",
+      "words": 9528,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/11870",
+        "edition": "The Country of the Blind, and Other Stories",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-country-of-the-blind.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-door-in-the-wall",
+      "title": "The Door in the Wall",
+      "author": "H. G. Wells",
+      "volume": "II",
+      "genre": "Fantasy",
+      "status": "available",
+      "description": "A green door in a white wall. An enchanted garden found in childhood. A successful man who keeps passing it by.",
+      "words": 6649,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/11870",
+        "edition": "The Country of the Blind, and Other Stories",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-door-in-the-wall.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-sea-raiders",
+      "title": "The Sea Raiders",
+      "author": "H. G. Wells",
+      "volume": "II",
+      "genre": "Suspense",
+      "status": "available",
+      "description": "Strange creatures surface off the English coast. A curious man rows out for a closer look. The sea is hiding something hungry.",
+      "words": 3990,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/11870",
+        "edition": "The Country of the Blind, and Other Stories",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-sea-raiders.txt"
+        }
+      ]
+    },
+    {
+      "id": "a-descent-into-the-maelstr-m",
+      "title": "A Descent into the Maelström",
+      "author": "Edgar Allan Poe",
+      "volume": "II",
+      "genre": "Adventure",
+      "status": "available",
+      "description": "A towering cliff above the Norwegian sea. A fisherman whose hair turned white in a single day. The whirlpool he lived to describe.",
+      "words": 6923,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/2148",
+        "edition": "The Works of Edgar Allan Poe — Volume 2",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/a-descent-into-the-maelstr-m.txt"
+        }
+      ]
+    },
+    {
+      "id": "to-build-a-fire",
+      "title": "To Build a Fire",
+      "author": "Jack London",
+      "volume": "III",
+      "genre": "Adventure",
+      "status": "available",
+      "description": "Seventy-five below zero on the Yukon trail. A man, a dog, and a few matches. Advice he chose not to take.",
+      "words": 7081,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/2429",
+        "edition": "Lost Face",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/to-build-a-fire.txt"
+        }
+      ]
+    },
+    {
+      "id": "love-of-life",
+      "title": "Love of Life",
+      "author": "Jack London",
+      "volume": "III",
+      "genre": "Adventure",
+      "status": "available",
+      "description": "Abandoned by his partner with a twisted ankle. Endless empty wilderness. A starving man and a sick wolf, each waiting for the other to fall.",
+      "words": 8143,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/710",
+        "edition": "Love of Life, and Other Stories",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/love-of-life.txt"
+        }
+      ]
+    },
+    {
+      "id": "a-retrieved-reformation",
+      "title": "A Retrieved Reformation",
+      "author": "O. Henry",
+      "volume": "III",
+      "genre": "Choices",
+      "status": "available",
+      "description": "A safecracker walks out of prison. A new name and a new love in a small town. A detective who never forgets a face.",
+      "words": 2803,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/1646",
+        "edition": "Roads of Destiny",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/a-retrieved-reformation.txt"
+        }
+      ]
+    },
+    {
+      "id": "a-service-of-love",
+      "title": "A Service of Love",
+      "author": "O. Henry",
+      "volume": "III",
+      "genre": "Relationships",
+      "status": "available",
+      "description": "Two young artists in love in New York. Money running out. Each one with a secret to keep.",
+      "words": 2078,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/2776",
+        "edition": "The Four Million",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/a-service-of-love.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-man-who-would-be-king",
+      "title": "The Man Who Would Be King",
+      "author": "Rudyard Kipling",
+      "volume": "III",
+      "genre": "Adventure",
+      "status": "available",
+      "description": "Two bold vagabonds sign a contract. A remote mountain land. A plan to become kings.",
+      "words": 14177,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/8147",
+        "edition": "The Man Who Would Be King",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-man-who-would-be-king.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-sire-de-mal-troits-door",
+      "title": "The Sire de Malétroit’s Door",
+      "author": "Robert Louis Stevenson",
+      "volume": "III",
+      "genre": "Choices",
+      "status": "available",
+      "description": "A young soldier slips through a door at night. It locks behind him. An old lord gives him until dawn to choose.",
+      "words": 8125,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/839",
+        "edition": "New Arabian Nights",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-sire-de-mal-troits-door.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-outcasts-of-poker-flat",
+      "title": "The Outcasts of Poker Flat",
+      "author": "Bret Harte",
+      "volume": "III",
+      "genre": "Choices",
+      "status": "available",
+      "description": "Four outcasts driven out of a mining town. Two young travelers who join them. A mountain snowstorm that tests them all.",
+      "words": 4004,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/10483",
+        "edition": "Short Stories Old and New",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-outcasts-of-poker-flat.txt"
+        }
+      ]
+    },
+    {
+      "id": "an-occurrence-at-owl-creek-bridge",
+      "title": "An Occurrence at Owl Creek Bridge",
+      "author": "Ambrose Bierce",
+      "volume": "III",
+      "genre": "Suspense",
+      "status": "available",
+      "description": "A railroad bridge in wartime Alabama. A man with a rope around his neck. A desperate race toward home.",
+      "words": 3720,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/13334",
+        "edition": "The Collected Works of Ambrose Bierce, Volume 02",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/an-occurrence-at-owl-creek-bridge.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-adventure-of-the-abbey-grange",
+      "title": "The Adventure of the Abbey Grange",
+      "author": "Arthur Conan Doyle",
+      "volume": "III",
+      "genre": "Choices",
+      "status": "available",
+      "description": "A murder at a country house. A story that seems almost too neat. Sherlock Holmes must decide what justice requires.",
+      "words": 9125,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/108",
+        "edition": "The Return of Sherlock Holmes",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-adventure-of-the-abbey-grange.txt"
+        }
+      ]
+    },
+    {
+      "id": "a-pair-of-silk-stockings",
+      "title": "A Pair of Silk Stockings",
+      "author": "Kate Chopin",
+      "volume": "IV",
+      "genre": "Identity",
+      "status": "available",
+      "description": "A mother who always puts her children first. Fifteen unexpected dollars. One afternoon in the city stores.",
+      "words": 1884,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/160",
+        "edition": "The Awakening, and Selected Short Stories",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/a-pair-of-silk-stockings.txt"
+        }
+      ]
+    },
+    {
+      "id": "d-sir-es-baby",
+      "title": "Désirée’s Baby",
+      "author": "Kate Chopin",
+      "volume": "IV",
+      "genre": "Identity",
+      "status": "available",
+      "description": "A foundling raised with love. A marriage to a proud plantation heir. A baby who changes everything.",
+      "words": 2143,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/160",
+        "edition": "The Awakening, and Selected Short Stories",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/d-sir-es-baby.txt"
+        }
+      ]
+    },
+    {
+      "id": "a-respectable-woman",
+      "title": "A Respectable Woman",
+      "author": "Kate Chopin",
+      "volume": "IV",
+      "genre": "Relationships",
+      "status": "available",
+      "description": "A quiet plantation. A husband's old friend comes to stay. A wife who cannot decide what she thinks of him.",
+      "words": 1446,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/160",
+        "edition": "The Awakening, and Selected Short Stories",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/a-respectable-woman.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-celebrated-jumping-frog-of-calaveras-county",
+      "title": "The Celebrated Jumping Frog of Calaveras County",
+      "author": "Mark Twain",
+      "volume": "IV",
+      "genre": "Humor",
+      "status": "available",
+      "description": "A man who would bet on anything. A frog named Dan'l Webster. A tall tale told with a perfectly straight face.",
+      "words": 2628,
+      "source": {
+        "url": "https://en.wikisource.org/wiki/The_Celebrated_Jumping_Frog_of_Calaveras_County,_and_Other_Sketches/The_Celebrated_Jumping_Frog_of_Calaveras_County",
+        "edition": "The Celebrated Jumping Frog of Calaveras County, and Other Sketches (1867), Wikisource",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-celebrated-jumping-frog-of-calaveras-county.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-mcwilliamses-and-the-burglar-alarm",
+      "title": "The McWilliamses and the Burglar Alarm",
+      "author": "Mark Twain",
+      "volume": "IV",
+      "genre": "Humor",
+      "status": "available",
+      "description": "A family buys a burglar alarm for peace of mind. The alarm has other ideas. A comedy of costly upgrades and sleepless nights.",
+      "words": 2646,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/3186",
+        "edition": "The Mysterious Stranger, and Other Stories",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-mcwilliamses-and-the-burglar-alarm.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-cop-and-the-anthem",
+      "title": "The Cop and the Anthem",
+      "author": "O. Henry",
+      "volume": "IV",
+      "genre": "Identity",
+      "status": "available",
+      "description": "Winter is coming to Madison Square. A homeless man plans to spend it in jail. Getting arrested is harder than he thought.",
+      "words": 2264,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/2776",
+        "edition": "The Four Million",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-cop-and-the-anthem.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-furnished-room",
+      "title": "The Furnished Room",
+      "author": "O. Henry",
+      "volume": "IV",
+      "genre": "Relationships",
+      "status": "available",
+      "description": "A young man searching New York for the woman he loves. A shabby rented room. A faint scent he cannot explain.",
+      "words": 2451,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/2776",
+        "edition": "The Four Million",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-furnished-room.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-happy-prince",
+      "title": "The Happy Prince",
+      "author": "Oscar Wilde",
+      "volume": "IV",
+      "genre": "Friendship",
+      "status": "available",
+      "description": "A golden statue looks down on a suffering city. A swallow on his way to Egypt. One more favor, and then one more.",
+      "words": 3471,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/902",
+        "edition": "The Happy Prince, and Other Tales",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-happy-prince.txt"
+        }
+      ]
+    },
+    {
+      "id": "the-selfish-giant",
+      "title": "The Selfish Giant",
+      "author": "Oscar Wilde",
+      "volume": "IV",
+      "genre": "Friendship",
+      "status": "available",
+      "description": "A giant builds a wall around his garden. The children are shut out. Spring refuses to come.",
+      "words": 1652,
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/902",
+        "edition": "The Happy Prince, and Other Tales",
+        "rights": "Public domain in the United States"
+      },
+      "editions": [
+        {
+          "id": "original",
+          "label": "Original",
+          "path": "stories/the-selfish-giant.txt"
+        }
+      ]
+    }
+  ]
+}
