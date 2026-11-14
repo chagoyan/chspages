@@ -2,13 +2,13 @@ const scope = self.registration.scope;
 const prefix = `chs-pages:${scope}:`;
 // Caches from builds before the rename.
 const legacyPrefix = `thursday-pages:${scope}:`;
-const version = `${prefix}v8`;
+const version = `${prefix}v9`;
 const appShell = new URL('./', scope).href;
 const precache = [
   './', './css/styles.css', './js/app.js', './js/library.js', './js/reader.js',
   './js/storage.js', './js/ratings.js', './data/stories.json', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png',
-  './icons/apple-touch-icon.png'
+  './icons/apple-touch-icon.png', './brand/chs-tech-badge.png', './fonts/graduate-latin.woff2'
 ].map(path => new URL(path, scope).href);
 
 self.addEventListener('install', event => {

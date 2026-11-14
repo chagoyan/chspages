@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#173e35">
+  <meta name="theme-color" content="#111111">
   <meta name="description" content="Your CHS literacy library.">
   <title>CHS Pages</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/icon-192.png">
   <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="preload" href="./fonts/graduate-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="./css/styles.css">
   <script type="module" src="./js/app.js"></script>
 </head>
@@ -16,7 +17,7 @@
   <a class="skip" href="#main">Skip to content</a>
   <header class="masthead">
     <div class="shell masthead-inner">
-      <a class="brand" href="./"><img src="./icons/icon-192.png" alt="" width="38" height="38"> CHS Pages</a>
+      <a class="brand" href="./"><img src="./icons/icon-192.png" alt="" width="44" height="44"> <span>CHS</span>&nbsp;Pages</a>
       <a id="library-link" href="./#library">Library</a>
     </div>
   </header>
@@ -38,7 +39,7 @@
           <a id="feature-link" class="button primary">Read story <span aria-hidden="true">→</span></a>
         </div>
         <div class="feature-art" aria-hidden="true">
-          <div class="window"><i></i><i></i><i></i><i></i></div>
+          <img src="./brand/chs-tech-badge.png" alt="" width="512" height="512">
         </div>
       </section>
       <section id="continue" class="continue" aria-labelledby="continue-heading" hidden>

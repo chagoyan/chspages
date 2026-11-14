@@ -28,6 +28,12 @@ Increment the cache version in `service-worker.js` whenever you release changes 
 
 Keep the storage key in `js/storage.js` (`chs-pages:v1`) unchanged so returning readers retain their bookmarks, progress, preferences and ratings. Data saved by earlier builds under `thursday-pages:v1` moves to the current key automatically the first time a reader opens the site.
 
+## Branding
+
+The site uses Coalinga High School colors: brand orange `#E35205`, black `#111111` and white. These are set as variables at the top of `css/styles.css`. Bright orange is only used for large text, buttons and decoration. Links and small labels use the darker `#B8430F` so they stay readable on light backgrounds.
+
+The CHS Technology Pathway badge is in `brand/chs-tech-badge.png`, and the app icons in `icons/` are generated from it. Headings use the Graduate typeface, which is stored in `fonts/` so it works offline. Graduate is licensed under the SIL Open Font License (`fonts/OFL.txt`).
+
 ## Story catalog and attribution
 
 All 36 stories are complete texts in the U.S. public domain. Each has an individual source credit, shown in the reader and recorded in `data/stories.json`. Most are from Project Gutenberg. The Chopin and Twain transcriptions credited to Wikisource follow historical editions. *The Open Window* uses David Price’s transcription of the 1914 edition of *Beasts and Super-Beasts*. *The Necklace* uses an English translation published in 1916 in *Short Stories Old and New*. Each story file in `stories/` is plain text with a blank line between paragraphs.
